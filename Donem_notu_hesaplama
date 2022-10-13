@@ -1,0 +1,27 @@
+ vize = input("Vize Notunu Giriniz : ")
+ final = input("Final Notunu Giriniz : ")
+ ortalama= int(vize)*0.4 + int(final)*0.6
+ print("Ders Notunuz :{0} ".format(ortalama))
+ if (ortalama<60):
+     print("Kaldınız")
+     print("Ders notunuz DC")
+
+ elif (60<ortalama<70):
+     print("Geçtiniz")
+     print("Ders notunuz CC")
+
+ elif (70<ortalama<80):
+     print("Geçtiniz")
+     print("Ders notunuz CB")
+
+ elif (80<ortalama<85):
+     print("Geçtiniz")
+     print("Ders notunuz BB")
+
+ elif (85<ortalama<90):
+     print("Geçtiniz")
+     print("Ders notunuz BA")
+
+ else:
+     print("Geçtiniz")
+     print("Ders notunuz AA")
